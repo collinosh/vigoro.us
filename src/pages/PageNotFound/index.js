@@ -9,7 +9,10 @@ const PageNotFound = () => {
       <Helmet>
         <title>404</title>
       </Helmet>
-      <h1> 404: Placeholder </h1>
+      <h1 style={{marginTop: "14px"}}>Error Code: <span className="emphasis" style={{color: "darkgreen"}}>404</span>!</h1>
+      <p style={{fontFamily: "Source Code Pro", paddingTop: "10px", fontSize: "13px"}}>
+        It appears you've reached this page through an error. Sorry about that..
+      </p>
     </div>
   );
 };

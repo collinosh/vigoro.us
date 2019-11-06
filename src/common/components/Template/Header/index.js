@@ -44,12 +44,12 @@ export default class Header extends Component {
                     )
                 }
                 <div id="NavbarContainer">
-                    <div className="NavbarItem">
+                    <div className="NavbarItem NavbarIcon">
                         <i
                             className="fab fa-react"
                             isOpen={this.state.dropdownOpen}
                             toggle={this.toggleDropdown}
-                            style={{marginRight: "10px"}}
+                            style={{marginRight: "10px", color: "white"}}
                         />
                     </div>
                     <div className="NavbarItem">
