@@ -1,7 +1,7 @@
 
 /* <TabPanel /> component by: collinoshaughnessy@gmail.com */
 
-import React, {useMemo} from "react";
+import React from "react";
 import "./TabPanel.scss";
 
 const TabPanel = () => {

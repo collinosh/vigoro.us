@@ -45,8 +45,8 @@ export default props => {
               <br />
               We have built the foundation for a growing company that has been profitable since only several months of it launching. Since joining, I have: 
               <ol>
-                  <li>Solely designed and developed <a target="_blank" href="https://collinosh.github.io/auxidus/" style={{cursor: "pointer"}} className="emphasis comment">the initial Auxidus Website. </a></li>
-                  <li>Contributed to <a target="_blank" href="https://www.npmjs.com/package/auxidus-components" style={{cursor: "pointer"}} className="emphasis comment">a reusable components library</a> that utilizes TypeScript and Styled-Components.</li>
+                  <li>Solely designed and developed <a target="_blank" rel="noopener noreferrer" href="https://collinosh.github.io/auxidus/" style={{cursor: "pointer"}} className="emphasis comment">the initial Auxidus Website. </a></li>
+                  <li>Contributed to <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/auxidus-components" style={{cursor: "pointer"}} className="emphasis comment">a reusable components library</a> that utilizes TypeScript and Styled-Components.</li>
                   <li>Assisted in converting class based React projects with Redux to function based projects utilizing Hooks and Context APIs.</li> 
               </ol>
             </div>
@@ -62,7 +62,7 @@ export default props => {
               <ol>
                   <li>Mount Shasta Ranch B&amp;B</li>
                   <ul>
-                      <li><a target="_blank" href="http://mountshastabedandbreakfast.com/" style={{cursor: "pointer"}} className="emphasis comment">Temporary site overhaul using their former technology</a>.</li>
+                      <li><a target="_blank" rel="noopener noreferrer" href="http://mountshastabedandbreakfast.com/" style={{cursor: "pointer"}} className="emphasis comment">Temporary site overhaul using their former technology</a>.</li>
                       <li>Current contract for from-scratch website on React and Gatsby.</li>
                   </ul>
                   <li>Taft Electric</li>

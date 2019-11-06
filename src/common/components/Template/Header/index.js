@@ -2,7 +2,7 @@
 /* <Header /> by: collinoshaughnessy@gmail.com */
 
 import React, { Component } from "react";
-import { Dropdown, DropdownMenu, DropdownToggle, NavLink, Button } from "reactstrap";
+import { Dropdown, DropdownMenu, DropdownToggle, NavLink } from "reactstrap";
 import { NavLink as Reroute } from "react-router-dom";
 import { Dialogue } from "../../Modal/components";
 import Modal from "../../Modal"; // use type 1
