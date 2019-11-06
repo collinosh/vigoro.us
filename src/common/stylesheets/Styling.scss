@@ -1,0 +1,82 @@
+@import "./Colors.scss";
+@import "./Fonts.scss";
+@import "./Sizes.scss";
+
+/* ========== Global Styling Rules ========== */
+
+*,
+*:before,
+*:after {
+  cursor: default;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  font-size: 15px;
+  word-wrap: break-word;
+}
+i {
+  font-size: 16px;
+}
+.emphasis {
+  border-bottom: 1px solid $transparentGreen;
+}
+a:hover {
+  text-decoration: none;
+}
+.pageContent {
+  color: $grey2;
+}
+#AppWrapper {
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: $grey4;
+}
+::-webkit-scrollbar-thumb {
+  background: $grey2;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $grey1;
+}
+
+
+code {
+  font-size: 13.5px;
+  color: lightgrey;
+  .comment {
+      color: $commentText;
+  }
+  .return {
+      color: $returnText;
+  }
+  .component {
+      color: $componentText;
+  } 
+  .code {
+      color: $codeText;
+  }
+  .source {
+      color: $sourceText;
+  }
+  .unused {
+      color: $unusedText;
+  }
+  .code {
+      color: $codeText;
+  }
+  .tag {
+      color: $tagText;
+  }
+  .spoiler {
+      background: black;
+      color: transparent;
+      &:hover {
+          color: yellow;
+      }
+  }
+}

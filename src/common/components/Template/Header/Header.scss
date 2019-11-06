@@ -1,0 +1,71 @@
+
+@import "../../../stylesheets/Colors.scss";
+@import "../../../stylesheets/Sizes.scss";
+
+#HeaderWrapper {
+    width: 100%;
+    line-height: $headerHeight;
+    background-color: $grey3;
+    color: $white;
+    top: 0;
+    position: fixed;
+    z-index: 3;
+}
+#NavbarContainer {
+    float: left;
+    width: 25%;
+    padding-left: 10px;
+}
+.NavbarItem {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+    &:hover, &:active {
+        background-color: $grey2;
+    }
+}
+#HeaderTitle {
+    float: left;
+    text-align: center;
+    padding-right: 10%; // Offset
+    width: 60%;
+    cursor: default;
+}
+#HeaderLinks {
+    float: right;
+    width: 15%;
+    text-align: right;
+
+    .SocialBtn {
+        color: $white;
+        width: 35px;
+        padding: 0px 5px 0px 5px;
+        text-align: center;
+    }
+}
+.dropdown {
+    display: inline-block;
+    .dropdown-menu {
+        color: $white;
+        margin-top: $headerHeight - 23px;
+        margin-left: -6px;
+        z-index: 1;
+        border-top: none;
+        background-color: $grey3;
+        border-radius: 0px;
+        -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.95);
+        -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.95);
+        box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.95);
+        span {
+            padding-left: 10px;
+        }
+        .nav-link{
+            color: white;
+            line-height: 13px;
+            font-size: 13px;
+        }
+        .nav-link:hover {
+            background-color: $transparentGreen;
+        }
+    }
+}

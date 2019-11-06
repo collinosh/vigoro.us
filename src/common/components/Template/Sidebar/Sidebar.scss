@@ -1,0 +1,120 @@
+/* ======== Sidebar.scss | Vigoro.us ======== */
+
+@import "../../../stylesheets/Colors.scss";
+@import "../../../stylesheets/Sizes.scss";
+
+#SidebarWrapper {
+  .activeLink {
+    background-color: $transparentGreen2;
+  }
+  .nav-link {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+  background-color: $grey3;
+  width: $sidebarWidth;
+  i {
+    min-width: 13px;
+    font-size: 12px;
+  }
+
+  .Caret {
+    font-size: 13px;
+    color: $white;
+    transform: rotate(45deg) translate(2px, 3px);
+  }
+
+  #SidebarAccent {
+    width: $sideAccentWidth;
+    height: 100%;
+    background-color: $grey4;
+    float: left;
+  }
+  #SidebarContainer {
+    height: 100%;
+    float: right;
+    background-color: $grey5;
+    width: $sideNavWidth;
+
+    // Info Container at Top
+    #SidebarHeader {
+      width: 100%;
+      height: $tabPanelHeight;
+      display: flex;
+      align-items: center;
+      padding-left: 28px;
+      color: $grey1;
+      font-size: 11px;
+    }
+    #SidebarNav {
+      width: 100%;
+      min-height: 100vh;
+    }
+    .SidebarNavFolder {
+      .SidebarNavTitle {
+        width: 100%;
+        height: $navTitleHeight;
+        color: $white;
+        background-color: $grey3;
+        padding-left: $folderOffset;
+      }
+      .SidebarFolderText {
+        padding-top: 3px;
+        font-size: 11px;
+        width: 90%;
+        float: right;
+      }
+      & .SidebarFolderTitle {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.SidebarSubFolder {
+  margin-top: 2px;
+  width: 100%;
+  font-size: 13px;
+  .SidebarSubFolderTitle {
+    width: 100%;
+    padding-left: $folderOffset * 2;
+    margin-bottom: 2px;
+    color: $gold;
+    .SidebarSubFolderText {
+      padding-left: $folderOffset;
+    }
+  }
+  .SidebarSubFolderItem {
+    width: 100%;
+    padding-left: $folderOffset * 3;
+    &:hover {
+      cursor: pointer;
+      background-color: $transparentGreen2;
+    }
+    .LinkOut {
+      color: $yellow;
+      text-align: center;
+      &.readme {
+        color: #007acc;
+      }
+    }
+    .SidebarItemText {
+      padding-left: 6px;
+      cursor: pointer;
+      color: $green5;
+    }
+  }
+}
+
+.SidebarBottomNav {
+  padding-top: 5px;
+  .SidebarBottomNavText {
+    font-size: 11px;
+    color: $grey1;
+    padding: 5px;
+  }
+}

@@ -1,0 +1,55 @@
+
+@import "../../../stylesheets/Colors.scss";
+@import "../../../stylesheets/Sizes.scss";
+
+#LandingTerminal {
+    position: fixed;
+    background-color: $grey6;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: $terminalHeight;
+    border-top: 1px solid $grey3;
+
+    #TerminalTabs {
+      font-size: 10px;
+      margin-left: $sidebarWidth;
+      margin-top: 10px;
+      width: 100%;
+      border: transparent;
+
+      .terminalItem {
+        margin-left: 15px;
+        padding-bottom: 5px;
+        border: transparent;
+        color: $grey2;
+        cursor: pointer;
+
+        a:hover {
+          border-color: transparent;
+          color: $white;
+        }
+        & .active:hover {
+          border-bottom-color: $grey3;
+        }
+      }
+      .active {
+        background-color: transparent;
+        color: $white;
+        border: none;
+        box-shadow: none;
+        border-bottom: 1px solid $grey3;
+      }
+    }
+  }
+  .tabPane {
+    padding-top: 5px;
+    font-size: 12px;
+    padding-left: $sidebarWidth + 30px;
+    .tabItem {
+      padding-top: 10px;
+      padding-left: 15px;
+      color: $grey1;
+
+    }
+  }

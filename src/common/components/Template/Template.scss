@@ -1,0 +1,26 @@
+/* ======== Template.scss | Vigoro.us ======= */
+
+@import "../../stylesheets/Sizes.scss";
+@import "../../stylesheets/Colors.scss";
+
+#Template {
+  #HeaderOffset {
+    padding-top: $headerHeight;
+  }
+  #SidebarOffset {
+    color: $white;
+    position: fixed;
+    padding-left: $sidebarWidth;
+    padding-top: $tabPanelHeight + 1px;
+    width: 100%;
+    height: 100vh;
+    background-color: $grey6;
+  }
+  #Body {
+    margin-left: $numbersWidth + 15px;
+    height: $terminalOffset;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    line-height: 1.25em;
+  }
+}

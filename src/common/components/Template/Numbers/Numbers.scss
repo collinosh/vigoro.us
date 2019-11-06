@@ -1,0 +1,18 @@
+@import "../../../stylesheets/Sizes.scss";
+@import "../../../stylesheets/Colors.scss";
+@import "../../../stylesheets/Fonts.scss";
+
+#NumbersWrapper {
+  font-family: "Source Code Pro", monospace;
+  z-index: 1;
+  width: 35px;
+  color: $grey1;
+  text-align: right;
+  position: fixed;
+  top: $totalHeaderHeight;
+  left: $sidebarWidth;
+  height: $terminalOffset;
+  padding-right: 5px;
+  font-size: 13px;
+  mask-image: linear-gradient(to top, transparent 6%, black 90%);
+}

@@ -1,0 +1,13 @@
+$headerHeight: 30px;
+$tabPanelHeight: 37.5px;
+$totalHeaderHeight: $headerHeight + $tabPanelHeight;
+$sidebarWidth: 200px;
+$numbersWidth: 35px;
+$totalSidebarWidth: $sidebarWidth + $numbersWidth;
+$sideAccentWidth: 15%;
+$sideNavWidth: 100% - $sideAccentWidth;
+$navTitleHeight: 20px;
+$folderOffset: 10px;
+$pageOffset: 35px;
+$terminalHeight: 225px;
+$terminalOffset: calc(100% - 255px); // Header Height + Terminal Height
