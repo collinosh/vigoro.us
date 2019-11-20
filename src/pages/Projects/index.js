@@ -30,21 +30,15 @@ export default props => {
           {/* Wrapper */}
           <span className="tag" style={{marginLeft: "8px"}}>{"<"}</span><span className="code">div</span><span className="component"> id</span>{"="}<span className="source">{'"'}ProjectsWrapper{'"'}</span><span className="tag">></span>
           <div style={{marginLeft: "8px", display: "inline-block", borderLeft: "1px solid grey", paddingLeft: "16px"}}>
-            <span className="tag" style={{marginLeft: "8px"}}>{'<'}</span><span className="code">h3</span><span className="tag">{'> '}</span>Hello, my name is Collin O'Shaughnessy.<span className="tag">{' </'}</span><span className="code">h3</span><span className="tag">{'>'}</span>
-            <br />
-            <span className="tag" style={{marginLeft: "8px"}}>{'<'}</span><span className="code">br </span><span className="tag">{'/>'}</span>
-            <br />
-            <br />
             {/* Auxidus Section */}
             <span className="tag" style={{marginLeft: "8px"}}>{'<'}</span><span className="code">AuxidusProjects</span><span className="tag">{'>'}</span>
             <br />
             <div style={{marginLeft: "8px", display: "inline-block", borderLeft: "1px solid grey", paddingLeft: "24px"}}>
-              <br />
               Working with an expanding startup has been an incredible learning opportunity for me.
               <br />
               <br />
               We have built the foundation for a growing company that has been profitable since only several months of it launching. Since joining, I have: 
-              <ol>
+              <ol style={{marginBottom: "0px"}}>
                   <li>Solely designed and developed <a target="_blank" rel="noopener noreferrer" href="https://collinosh.github.io/auxidus/" style={{cursor: "pointer"}} className="emphasis comment">the initial Auxidus Website. </a></li>
                   <li>Contributed to <a target="_blank" rel="noopener noreferrer" href="https://www.npmjs.com/package/auxidus-components" style={{cursor: "pointer"}} className="emphasis comment">a reusable components library</a> that utilizes TypeScript and Styled-Components.</li>
                   <li>Assisted in converting class based React projects with Redux to function based projects utilizing Hooks and Context APIs.</li> 
@@ -57,9 +51,8 @@ export default props => {
             <span className="tag" style={{marginLeft: "8px"}}>{'<'}</span><span className="code">ConsultingProjects</span><span className="tag">{'>'}</span>
             <br />
             <div style={{marginLeft: "8px", display: "inline-block", borderLeft: "1px solid grey", paddingLeft: "24px"}}>
-              <br />
               I have also had the pleasure of working on numerous contracts for companies of various sizes, such as:
-              <ol>
+              <ol style={{marginBottom: "0px"}}>
                   <li>Mount Shasta Ranch B&amp;B</li>
                   <ul>
                       <li><a target="_blank" rel="noopener noreferrer" href="http://mountshastabedandbreakfast.com/" style={{cursor: "pointer"}} className="emphasis comment">Temporary site overhaul using their former technology</a>.</li>

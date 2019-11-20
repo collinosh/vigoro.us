@@ -91,19 +91,18 @@ export default () => {
               </NavLink>
             </div>
             {/* BOTTOM SIDE NAV */}
-            <div className="SidebarNavFolder">
+            {/* <div className="SidebarNavFolder">
               <div className="SidebarNavTitle">
                 <i className="fa fa-caret-right" />
                 <span className="SidebarFolderText SidebarFolderTitle">OUTLINE</span>
               </div>
             </div>
-            {/* BOTTOM SIDE NAV */}
             <div className="SidebarNavFolder">
               <div className="SidebarNavTitle">
                 <i className="fa fa-caret-right" />
                 <span className="SidebarFolderText SidebarFolderTitle">NPM SCRIPTS</span>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

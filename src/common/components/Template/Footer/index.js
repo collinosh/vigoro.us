@@ -35,7 +35,7 @@ class Footer extends Component {
                 }}
                 style={{cursor: "pointer"}}
               >
-                PROBLEMS
+                ABOUT
               </NavLink>
             </NavItem>
             <NavItem className="terminalItem">
@@ -52,7 +52,10 @@ class Footer extends Component {
           </Nav>
           <TabContent className="tabContents" activeTab={this.state.activeTab}>
             <TabPane className="tabPane" tabId="1">
-              No problems have been detected in the workspace so far.
+              Welcome, and thank you for viewing my personal website.
+              <br /><br />
+              This website was built on ReactJS, using Javascript, HTML, CSS, JSX, React-Router, Reactstrap, React-Helmet and Sass. I constructed it to look and feel like navigating through VSCode. As such, it can be navigated through the 'Explorer' tab on the lefthand side of the screen.
+              You can check out the source at my Github Repo, the link can be found at the top right of the page, along with my LinkedIn.
             </TabPane>
             <TabPane className="tabPane" tabId="2">
               For independent project consultations, please contact me at <span className="emphasis">collin.oshaughnessy@auxidus.com</span>. For all other inquiries, please direct your messages to <span className="emphasis">collinoshaughnessy@gmail.com</span>. <br/>

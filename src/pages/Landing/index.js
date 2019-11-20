@@ -51,7 +51,7 @@ export default props => {
                 <li><span className="tag">[Development]</span> HTML, Javascript and CSS.</li>
                 <li><span className="tag">[State Management]</span> Function based ReactJS.</li>
                 <li><span className="tag">[Styling]</span> Styled-Components, Sass and Bootstrap.</li>
-                <li><span className="tag">[Misc]</span> NPM, Yarn, Git and Jira.</li>
+                <li><span className="tag">[Misc]</span> Git and Jira.</li>
               </ol>
               Outside of programming I enjoy lifting weights, playing computer games with my friends and bartending. I even have my own drink, the Collinoscopy!
             </div>

@@ -13,15 +13,17 @@ import "./common/stylesheets/Styling.scss";
 const App = () => {
   return (
     <Router>
-        <Template>
           <Switch>
             {routes.map(route=> {
-                return(<Route exact path={route.path} component={route.component} />)
-            })
-            }
-            <Route component={PageNotFound} />
+                return(
+                <Route exact path={route.path} render={
+                  () => route.hasTemplate ? 
+                  <Template><route.component/></Template>
+                  : <route.component/>
+              } />)
+            })}
+            <Route render={()=><Template><PageNotFound/></Template>} />
           </Switch>
-        </Template>
     </Router>
   );
 }

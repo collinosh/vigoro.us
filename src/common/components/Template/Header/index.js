@@ -31,11 +31,9 @@ export default class Header extends Component {
                     this.state.modalOpen && (
                         <Modal title="Help" onClose={e => this.toggleModal()}>
                             <Dialogue
-                                dialogue={`Welcome, and thank you for viewing my personal website.
-                                           This website was constructed to feel like navigating through VSCode.
-                                           As such, it can be navigated through the 'Explorer' on the lefthand side of the screen.
-                                           This site is built on class based ReactJS. Most of my work however, is done through functional based ReactJS.
-                                           You can check out the source at my Github Repo. The link is on the top right of this page!`}
+                                dialogue={`
+                                This site can be navigated through the 'Explorer' panel on the left side of the screen.
+                                Please note that this website is not a functional IDE. It is a static application designed to feel like VSCode.`}
                                 closeModal={e => this.toggleModal() }
                                 onClickHandler={e => this.toggleModal()}
                                 type={1}
